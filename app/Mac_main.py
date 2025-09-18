@@ -714,7 +714,7 @@ def import_codes(codes: dict, simulation_name: str) -> bool:
 DELIMITER = "%|%"
 RESPONSES_CSV = None
 try:
-    APP_DATA_DIR_DOCS = Path.home() / "Documents" / "UnityMicroVerseData"
+    APP_DATA_DIR_DOCS = Path.home() / "Documents" / "MicroVerseData"
     APP_DATA_DIR_DOCS.mkdir(parents=True, exist_ok=True)
     RESPONSES_DIR_DOCS = APP_DATA_DIR_DOCS / "Responses"
     RESPONSES_DIR_DOCS.mkdir(parents=True, exist_ok=True)
